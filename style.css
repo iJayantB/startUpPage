@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    background-color: #FCAF02;
+}
+
+.Logo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Logo span {
+    text-decoration: underline;
+}
+
+.navbar-list {
+    display: flex;
+
+}
+
+.navbar-list div {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* main-page */
+
+main {
+    background-color: black;
+}
+
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.startup-head {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.startup-description {
+    margin-bottom: 20px;
+}
+
+.btn-login {
+    padding: 8px 50px 8px 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #FCAF02;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.startup-image {
+    margin-top: 25px;
+}
+
+/* form */
+.startup-form {
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-head {
+    color: #FCAF02;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.name,
+.mobileNumber,
+.email,
+.city {
+    padding: 12px;
+    border-radius: 20px;
+    border-color: #FCAF02;
+    color: #FCAF02;
+    background-color: black;
+    margin-top: 20px;
+}
+
+::placeholder {
+    color: #FCAF02;
+}
+
+.name {
+    display: block;
+    width: 100%;
+}
+
+.email {
+    display: block;
+    width: 100%;
+}
+
+.mobileNumber {
+    width: 45%;
+    margin-left: 25px;
+}
+
+.city {
+    width: 45%;
+    margin-left: 30px;
+}
+
+.form-submit {
+    padding: 8px 50px 8px 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #FCAF02;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* table */
+table {
+    color: #FCAF02;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid;
+}
+
+th,
+tr {
+    border: 1px solid;
+}
+
+
+th,
+td {
+    padding: 25px;
+}
+
+tfoot {
+    background-color: #FCAF02;
+    color: black;
+}
